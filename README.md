@@ -1,1 +1,0 @@
-# Training-at-geekbrains-first-step-

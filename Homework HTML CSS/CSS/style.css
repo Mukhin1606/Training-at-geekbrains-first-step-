@@ -62,7 +62,7 @@
     content: "";
     display: block;
     position: absolute;
-    background-image: url(img/check%20icon.png);
+    background-image: url(../img/check%20icon.png);
     width: 25px;
     height: 19px;
     top: 7px;
@@ -75,10 +75,11 @@
     min-height: 215px;
     background-color: white;
     float: right;
-
 }
 
+
 /* ///HEADER */
+
 
 /* SECTION ABOUT-PRODUCT */
 
@@ -125,7 +126,6 @@
     min-height: 245px;
     float: right;
     outline: none;
-
 }
 
 
@@ -174,7 +174,6 @@
 }
 
 .dignity-list-item {
-
     width: 530px;
     min-height: 63px;
     font-size: 16px;
@@ -204,7 +203,9 @@
     top: 4px;
 }
 
+
 /* ///SECTION DIGNITY */
+
 
 /* SECTION SCREENSHOTS */
 
@@ -252,9 +253,7 @@
     margin: 0 15px 0 0;
 }
 
-
 .screenshots-description-title {
-
     font-size: 24px;
     font-family: "Arial";
     color: rgb(68, 81, 97);
@@ -275,7 +274,9 @@
     margin-top: 5px;
 }
 
+
 /* ///SECTION SCREENSHOTS */
+
 
 /* SECTION REVIEWS */
 
@@ -294,7 +295,6 @@
 }
 
 .reviews-title {
-
     font-size: 30px;
     font-family: "Arial";
     color: rgb(68, 81, 97);
@@ -311,12 +311,10 @@
     margin-top: 35px;
 }
 
-
 .reviews-content {
     width: 575px;
     display: flex;
 }
-
 
 .reviews-content.down {
     margin-top: 25px;
@@ -365,7 +363,9 @@
     text-align: left;
 }
 
+
 /* ///SECTION REVIEWS */
+
 
 /* SECTION BUY */
 
@@ -476,7 +476,9 @@
     color: #445162;
 }
 
+
 /* ///SECTION BUY */
+
 
 /* FOOTER */
 
@@ -649,7 +651,37 @@ textarea[placeholder] {
     background-repeat: no-repeat;
 }
 
-/* Оформление значков */
+.social {
+    display: flex;
+    width: 245px;
+}
+
+.social-item {
+    display: block;
+    width: 45px;
+    height: 42px;
+    background-image: url(../img/social%20buttons.png);
+}
+
+.social-item:nth-child(1) {
+    background-position: 0 0;
+}
+
+.social-item:nth-child(2) {
+    background-position: -49px 0;
+}
+
+.social-item:nth-child(3) {
+    background-position: -98px 0;
+}
+
+.social-item:nth-child(4) {
+    background-position: -148px 0;
+}
+
+.social-item:nth-child(5) {
+    background-position: -196px 0;
+}
 
 .footer-copyright-text {
     display: block;
@@ -661,5 +693,6 @@ textarea[placeholder] {
     color: rgb(68, 81, 98);
     line-height: 2;
 }
+
 
 /* ///FOOTER */
